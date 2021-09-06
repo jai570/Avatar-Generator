@@ -77,11 +77,14 @@ button:hover {
   justify-content: space-around;
   align-items: center;
 }
-@media (width: 700px) {
+@media all and (max-width: 500px) {
   .btngrp {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .gen{
+    margin-bottom: 5px;
   }
 }
 .gen {
